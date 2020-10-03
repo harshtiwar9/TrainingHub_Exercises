@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Exerice-2</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:100,300,400">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript">
+
+      function displayData(){
+        
+        var name = $("#name").val();
+        var email = $("#email").val();
+        var passes = $("#selectedPasses").val();
+        var comments = $("#comments").val();
+        alert("Name : "+ name + "<br /> Email : "+ email + "<br /> Passes : "+ passes + "<br /> Comments : " + comments);
+      }
+
+    </script>
+  </head>
+  <body>
+
+    <div class="container">
+
+      <header class="backgroundColor">
+
+        <div class="gridDesign">
+          <div class="part1">
+            <h1>Managing Conference</h1>
+          </div>
+
+          <div class="part2">
+            <span>August 24-26th - Chicago, IL</span>
+            <br>
+            <ul>
+              <li><a href="file:///E:/MERN/Exercises/Exercise-1/Exercise-1.html">Home</a></li>
+              <li><a href="#">Speakers</a></li>
+              <li><a href="#">Schedule</a></li>
+              <li><a href="#">Venue</a></li>
+              <li><a href="file:///E:/MERN/Exercises/Exercise-2/Exercise-2.html">Register</a></li>
+            </ul>
+          </div>
+        </div>
+
+      </header>
+
+      <div class="registerBar">
+        <h2>Register</h2>
+        <p>Every year we aim to have an unbelieveable time, and this year we'd love it for you to join us.<br>
+        conference passes only cost $99, one of the best values you'll find.<p>
+      </div>
+
+      <div class="gridDesign">
+
+        <div class="bodySection1">
+          <h2>Purchase a Conference Pass</h2>
+          <h3>$99 PER PASS</h3>
+          <p>
+            Purchase your styles conference pass using the form to the right. Multiple passes may
+            be purchased within the same order, so feel free to bring a friend or two along. Once
+            your order is finished we'll follow up and provide a receipt for ypur purchase. See you soon!
+          </p>
+          <h2>Why attend?</h2>
+
+          <ul class="listInfo" style="list-style-type:square;">
+            <li>Over twenty world-class speakers</li>
+            <li>One full day of workshops and two full days of presentations</li>
+            <li>Hosted at The Chicago Theatre, a historical landmark</li>
+            <li>August in Chicago is simply amazing</li>
+          </ul>
+        </div>
+
+        <div class="bodySection2">
+
+          <form action="..\Exercise-1\Exercise-1.html" method="post">
+
+              <legend for="name">Name</legend>
+              <input type="text" id="name" name="name" value="" placeholder="Name" required>
+              <br>
+
+              <legend for="email">Email</legend>
+              <input type="email" id="email" name="email" value="" placeholder="Email" required>
+              <br>
+
+              <legend for="noPasses">Number of Passes</legend>
+              <select id="selectedPasses">
+                <option value="1" selected>1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+              </select>
+              <br>
+
+              <legend for="comments">Comments</legend>
+              <textarea name="comments" rows="4" cols="50" id="comments" required></textarea>
+              <br>
+              <br>
+              <input type="submit" onsubmit="displayData();" class="purchaseButton" name="purchase" value="PURCHASE">
+
+          </form>
+
+        </div>
+
+      </div>
+
+      <footer class="backgroundColor gridDesign">
+
+        <div class="footer1">
+          <span>© Managing Conference</span>
+        </div>
+
+        <div class="footer2">
+          <ul>
+            <li><a href="file:///E:/MERN/Exercises/Exercise-1/Exercise-1.html">Home</a></li>
+            <li><a href="#">Speakers</a></li>
+            <li><a href="#">Schedule</a></li>
+            <li><a href="#">Venue</a></li>
+            <li><a href="file:///E:/MERN/Exercises/Exercise-2/Exercise-2.html">Register</a></li>
+          </ul>
+        </div>
+
+      </footer>
+
+    </div>
+
+  </body>
+</html>

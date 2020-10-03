@@ -1,0 +1,119 @@
+
+.container{
+  width: 70%;
+  margin: auto;
+}
+
+.backgroundColor{
+  background-color: #293f50;
+  color: white;
+  font: menu;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+.gridDesign {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.gridImage {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 25px;
+}
+
+.gridImage .container {
+    width: 80%;
+}
+
+span {
+  color: #58766d;
+}
+
+ul, li {
+  display: inline-block;
+  padding-left: 10px;
+}
+
+ul, li:first-child{
+  padding-left: 0;
+}
+
+.header{
+  display: table-caption;
+  margin-top: 0;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+header.backgroundColor {
+    margin-top: -8px;
+}
+
+.part1{
+  max-width: min-content;
+}
+
+.part2{
+  text-align: right;
+  padding-top: 35px;
+}
+
+.part3, .part4{
+  text-align: center;
+}
+
+h1, h2, h3{
+  font-weight: lighter;
+}
+
+.registerNow{
+  background-color: #293f50;
+    border: 1px solid white;
+    color: white;
+    border-radius: 4px;
+    font-size: 13px;
+    text-align: center;
+    block-size: 37px;
+    width: 142px;
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+  width: 57.4%; /*  55.05 */
+  height: 60px;
+}
+
+.footer1{
+  padding: 25px;
+  text-align: left;
+}
+
+.footer2{
+  text-align: right;
+  padding: 12px;
+}
+
+a:hover, button:hover{
+  cursor: pointer;
+  color: red;
+}
+
+img{
+  width: 200px;
+  height: 150px;
+  border-radius: 5px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+legend {
+    font-size: x-small;
+}

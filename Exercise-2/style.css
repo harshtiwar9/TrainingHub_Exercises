@@ -1,0 +1,146 @@
+
+.container{
+  width: 70%;
+  margin: auto;
+}
+
+.backgroundColor{
+  background-color: #293f50;
+  color: white;
+  font: menu;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+.gridDesign {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+span, legend {
+  color: #58766d;
+}
+
+ul, li {
+  display: inline-block;
+  padding-left: 10px;
+}
+
+ul, li:first-child{
+  padding-left: 0;
+}
+
+ul.listInfo{
+  padding-left: 39px;
+  margin-top: -12px;
+}
+
+.listInfo li{
+  display: list-item;
+  padding-left: unset;
+  list-style-type:square;
+}
+
+.header{
+  display: table-caption;
+  margin-top: 0;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+header.backgroundColor {
+    margin-top: -8px;
+}
+
+.part1{
+  max-width: min-content;
+}
+
+.part2{
+  text-align: right;
+  padding-top: 35px;
+}
+
+h1, h2, h3{
+  font-weight: lighter;
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+  width: 57.4%; /*  55.05 */
+  height: 60px;
+}
+
+.footer1{
+  padding: 25px;
+  text-align: left;
+}
+
+.footer2{
+  text-align: right;
+  padding: 12px;
+}
+
+a:hover, button:hover{
+  cursor: pointer;
+  color: red;
+}
+
+.registerBar{
+  text-align: center;
+  background-color:  #bdddbc;
+  padding-top: 1px;
+}
+
+.registerBar > h2{
+  color: #76a09b;
+  margin-top: 3px;
+}
+
+.registerBar > p{
+  color: #9a9f97;
+  padding-bottom: 5px;
+  margin-top: -20px;
+}
+
+.bodySection1 {
+  width: 620px;
+}
+
+form{
+  align-items: flex-end;
+}
+
+select{
+  width: 40px;
+  border-radius: 3px;
+}
+
+textarea{
+  margin: 0px;
+  width: 167px;
+  height: 49px;
+}
+
+legend {
+    padding-top: 5px;
+}
+
+.purchaseButton{
+  background-color: #648880;
+  border: 1px solid white;
+  color: white;
+  border-radius: 4px;
+  font-size: 13px;
+  text-align: center;
+  block-size: 37px;
+  width: 142px;
+}
+
+.purchaseButton:hover{
+  cursor: pointer;
+}
