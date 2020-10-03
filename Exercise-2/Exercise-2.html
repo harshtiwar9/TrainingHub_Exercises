@@ -2,19 +2,18 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Exerice-2</title>
+    <title>Exercise-2</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:100,300,400">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script type="text/javascript">
 
       function displayData(){
-        
         var name = $("#name").val();
         var email = $("#email").val();
         var passes = $("#selectedPasses").val();
         var comments = $("#comments").val();
-        alert("Name : "+ name + "<br /> Email : "+ email + "<br /> Passes : "+ passes + "<br /> Comments : " + comments);
+        alert("Name : "+ name + "\nEmail : "+ email + "\nPasses : "+ passes + "\nComments : " + comments);
       }
 
     </script>
@@ -34,11 +33,11 @@
             <span>August 24-26th - Chicago, IL</span>
             <br>
             <ul>
-              <li><a href="file:///E:/MERN/Exercises/Exercise-1/Exercise-1.html">Home</a></li>
+              <li><a href="../Exercise-1/Exercise-1.html">Home</a></li>
               <li><a href="#">Speakers</a></li>
               <li><a href="#">Schedule</a></li>
               <li><a href="#">Venue</a></li>
-              <li><a href="file:///E:/MERN/Exercises/Exercise-2/Exercise-2.html">Register</a></li>
+              <li><a href="../Exercise-2/Exercise-2.html">Register</a></li>
             </ul>
           </div>
         </div>
@@ -73,7 +72,7 @@
 
         <div class="bodySection2">
 
-          <form action="..\Exercise-1\Exercise-1.html" method="post">
+          <form action="../Exercise-1/Exercise-1.html" method="post" onsubmit="displayData()">
 
               <legend for="name">Name</legend>
               <input type="text" id="name" name="name" value="" placeholder="Name" required>
@@ -95,7 +94,7 @@
               <textarea name="comments" rows="4" cols="50" id="comments" required></textarea>
               <br>
               <br>
-              <input type="submit" onsubmit="displayData();" class="purchaseButton" name="purchase" value="PURCHASE">
+              <input type="submit" class="purchaseButton" name="purchase" value="PURCHASE">
 
           </form>
 
@@ -111,11 +110,11 @@
 
         <div class="footer2">
           <ul>
-            <li><a href="file:///E:/MERN/Exercises/Exercise-1/Exercise-1.html">Home</a></li>
+            <li><a href="../Exercise-1/Exercise-1.html">Home</a></li>
             <li><a href="#">Speakers</a></li>
             <li><a href="#">Schedule</a></li>
             <li><a href="#">Venue</a></li>
-            <li><a href="file:///E:/MERN/Exercises/Exercise-2/Exercise-2.html">Register</a></li>
+            <li><a href="../Exercise-2/Exercise-2.html">Register</a></li>
           </ul>
         </div>
 
