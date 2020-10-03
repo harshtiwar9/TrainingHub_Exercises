@@ -108,7 +108,11 @@ a:hover, button:hover{
 }
 
 .bodySection1 {
-  width: 620px;
+  width: 800px;
+}
+
+.bodySection2{
+  padding-left: 90px;
 }
 
 form{
@@ -122,7 +126,7 @@ select{
 
 textarea{
   margin: 0px;
-  width: 167px;
+  width: 160px;
   height: 49px;
 }
 
