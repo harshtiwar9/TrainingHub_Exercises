@@ -61,3 +61,7 @@ console.log(list.length); // 4
 console.log("Answer-3 : Here addColor assigned with function which have paramter of title and color \n" +
     "but first when it call first time it is pushed with 1 more data and it return the length of list \n" +
     "second time it log the list length");
+
+//Arrow Function
+const arr = [1, 2, 3, 4, 5, 6];
+console.log(arr.map(elm => elm * elm));
