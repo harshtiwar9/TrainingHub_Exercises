@@ -20,7 +20,7 @@ const pets = ['cat', 'dog', 'bat'];
 function checkIfFound(pet) {
     //... implement your code
     console.log(pets.map((elm) => elm === pet ? "Found!" : "Not Found!"));
-    //console.log(pets.filter((elm) => elm === pet).map(function(elm) { if (elm.length > 0) { return "Found!" } else { return "Not Found!"; } }));
+    // console.log(pets.filter((elm) => elm === pet).map(function(elm) { if (elm.length > 0) { return "Found!" } else { return "Not Found!"; } }));
     console.log(pets.filter((elm) => elm === pet).map(function(elm) { return elm }));
 }
 checkIfFound("cat")

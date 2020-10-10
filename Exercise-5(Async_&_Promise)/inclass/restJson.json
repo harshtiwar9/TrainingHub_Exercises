@@ -1,0 +1,31 @@
+{
+    "users" : [
+        { "id" : 1 , "name" : "Horacio" }
+    ],
+    "cars" : [
+        {
+            "make" : "Honda",
+            "modal" : "ciaz",
+            "year" : 2008,
+            "subModal" : "sports"
+
+        },
+        {
+            "make" : "Hyundai",
+            "modal" : "i10",
+            "year" : 2018,
+            "subModal" : "abc"
+
+        }
+
+    ],
+    "mycar" : [
+        {
+            "make" : "Hyundai",
+            "modal" : "i10",
+            "year" : 2018,
+            "subModal" : "abc"
+
+        }
+    ]        
+}
