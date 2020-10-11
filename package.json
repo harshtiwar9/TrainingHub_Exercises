@@ -1,0 +1,22 @@
+{
+  "name": "traininghub_exercises",
+  "version": "1.0.0",
+  "description": "Learning MERN (MongoDB, Express, React, Node.js)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harshtiwar9/TrainingHub_Exercises.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harshtiwar9/TrainingHub_Exercises/issues"
+  },
+  "homepage": "https://github.com/harshtiwar9/TrainingHub_Exercises#readme",
+  "dependencies": {
+    "axios": "^0.20.0"
+  }
+}
