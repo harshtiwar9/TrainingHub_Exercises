@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/harshtiwar9/TrainingHub_Exercises#readme",
   "dependencies": {
-    "axios": "^0.20.0"
-  }
+    "axios": "^0.20.0",
+    "firebase": "^7.23.0"
+  },
+  "devDependencies": {}
 }

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script type="text/javascript" src="Exercise-6.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    Student Id : <input id="studentId" type="number">
+    <br> Student Name : <input id="studentName" type="text">
+    <br> Student Class : <input id="studentClass" type="number">
+    <br> Student Average Marks : <input id="studentAvgMarks" type="number">
+    <br> <input type="button" value="Add">
+</body>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+        apiKey: "AIzaSyA090VF4nQP8BBMV08Yh74MR9dG3g-n5vk",
+        authDomain: "studentteacherexercise-6.firebaseapp.com",
+        databaseURL: "https://studentteacherexercise-6.firebaseio.com",
+        projectId: "studentteacherexercise-6",
+        storageBucket: "studentteacherexercise-6.appspot.com",
+        messagingSenderId: "380726113822",
+        appId: "1:380726113822:web:bc2522c0375784bcae600f"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+
+    firebase.database.ref('studentDetails');
+
+    showData();
+</script>
+
+</html>
