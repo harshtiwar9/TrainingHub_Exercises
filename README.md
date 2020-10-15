@@ -10,3 +10,6 @@ Topics Covered :
 2) CSS
 3) GitHub
 4) JavaScript
+5) Axios Library for Firebase
+6) Firebase
+7) React
