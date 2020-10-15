@@ -50,12 +50,13 @@
                             <input id="studentAvgMarks" type="number" class="validate" required>
                             <label for="studentAvgMarks">Student Average Marks</label>
                         </div>
-                        <div class="input-field col s12">
+                        <div class="input-field col s12 center">
                             <a class="waves-effect waves-light btn-small" onclick="addStudent()">Add Student</a>
                             <a class="waves-effect waves-light btn-small" onclick="showStudents()">Show All Student</a>
                         </div>
-                        <div class="input-field col s12">
+                        <div class="input-field col s12 center">
                             <a class="waves-effect waves-light btn-small" onclick="showStudentAsPerCondition()">View Student</a>
+                            <a class="waves-effect waves-light btn-small" onclick="$('#studentForm')[0].reset();">Clear Form</a>
                         </div>
                     </div>
                 </form>
@@ -76,12 +77,13 @@
                             <input id="teacherName" type="text" class="validate autocomplete" required>
                             <label for="teacherName">Teacher Name</label>
                         </div>
-                        <div class="input-field col s12">
+                        <div class="input-field col s12 center">
                             <a class="waves-effect waves-light btn-small" onclick="addTeacher()">Add Teacher</a>
                             <a class="waves-effect waves-light btn-small" onclick="showTeachers()">Show All Teacher</a>
                         </div>
-                        <div class="input-field col s12">
+                        <div class="input-field col s12 center">
                             <a class="waves-effect waves-light btn-small" onclick="showTeacherAsPerCondition()">View Student</a>
+                            <a class="waves-effect waves-light btn-small" onclick="$('#teacherForm')[0].reset();">Clear Form</a>
                         </div>
                     </div>
                 </form>
@@ -89,7 +91,7 @@
 
         </div>
 
-        <div class="col s6 offset-s1">
+        <div class="col s6 offset-s1 center">
             <h1>Student Information</h1>
             <div class="row viewStudentInformation card" id="viewStudentInformation">
                 <table class="centered">
